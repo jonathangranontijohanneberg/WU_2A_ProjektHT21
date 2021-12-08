@@ -59,3 +59,15 @@ footer{
     justify-content: space-evenly;
     align-items: flex-start;
 }
+
+#link_list_footer1{
+    list-style: none;
+}
+
+#link_list_footer2{
+    list-style: none;
+}
+
+#link_list_footer3{
+    list-style: none;
+}
