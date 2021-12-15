@@ -6,18 +6,60 @@
     box-sizing: border-box;
 }
 
+#wrapper_index {
+    display: grid;
+    height: 200vh;
+    width: 100vw;
+    gap: 8px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 2fr 1fr 100px;
+    
+    grid-template-areas: 
+    "he he he"
+    "r1 r1 . "
+    "r2 r3 . "
+    "fo fo fo"
+    ;
+}
+
+#reklam1{
+    background: greenyellow;
+    grid-area: r1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reklam2{
+    background: yellowgreen;
+    grid-area: r2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reklam3{
+    background: hotpink;
+    grid-area: r3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     padding-top: 20px;
     background: salmon;
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    grid-area: he;
 }
 
 #nav_header {
-    width: 100vw;
+    /* width: 100vw; */
     margin-top:auto;
     background: crimson;
     justify-content: center;
@@ -42,18 +84,18 @@ header {
 footer{
     display: flex;
     background: darkblue;
-    height: 100px;
-    width: 100vw;
+    /* height: 100px; */
+    /* width: 100vw; */
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
+    grid-area: fo;
 }
 
 #nav_footer{
     padding: 20px;
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     list-style: none;
     justify-content: space-evenly;
@@ -62,12 +104,160 @@ footer{
 
 #link_list_footer1{
     list-style: none;
+    text-decoration: none;
 }
+/* #link_list_footer1:hover{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+} */
+
 
 #link_list_footer2{
     list-style: none;
+    text-decoration: none;
+
 }
+
+/* #link_list_footer2:hover{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+} */
 
 #link_list_footer3{
     list-style: none;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    list-style: none;
+    cursor: pointer;
+    color: turquoise;
+}
+
+#wrapper_meny{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    gap: 8px;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr 100px;
+    
+    grid-template-areas: 
+    "he he he"
+    ".  m1 . "
+    ".  m2 . "
+    ".  m3 . "
+    ".  m4 . "
+    "fo fo fo"
+    ;
+}
+
+
+#menu_item1{
+    background: greenyellow;
+    grid-area: m1;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+#menu_item2{
+    background: greenyellow;
+    grid-area: m2;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+#menu_item3{
+    background: greenyellow;
+    grid-area: m3;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+#menu_item4{
+    background: greenyellow;
+    grid-area: m4;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+
+#wrapper_om_djuren{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    gap: 8px;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr 100px;
+    
+    grid-template-areas: 
+    "he he he"
+    ".  d1 . "
+    ".  d2 . "
+    ".  d3 . "
+    ".  d4 . "
+    "fo fo fo"
+    ;
+}
+
+
+#djur1{
+    background: greenyellow;
+    grid-area: d1;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+#djur2{
+    background: greenyellow;
+    grid-area: d2;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+#djur3{
+    background: greenyellow;
+    grid-area: d3;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+}
+
+#djur4{
+    background: greenyellow;
+    grid-area: d4;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
 }
