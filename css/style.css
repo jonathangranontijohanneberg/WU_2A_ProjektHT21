@@ -81,10 +81,6 @@ header {
     align-items: center;
 }
 
-
-
-
-
 footer{
     display: flex;
     background: darkblue;
@@ -136,6 +132,10 @@ footer{
 
 a{
     text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight:lighter;
 }
 
 a:hover{
@@ -276,4 +276,36 @@ a:hover{
 #logo_img {
     height: 100px;
     width:auto;
+}
+
+p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+h3 {
+    text-decoration: none;
+    color: white;
+    font-family: century;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: none;
+    color: white;
+    font-family: century;
+    font-size: 1.30rem;
+    font-weight: bold;
+}
+
+h1{
+    text-decoration: none;
+    color: white;
+    font-family: century;
+    font-size: 1.75rem;
+    font-weight: bold;
 }
