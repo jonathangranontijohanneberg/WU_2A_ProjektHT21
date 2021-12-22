@@ -12,9 +12,10 @@
     width: 100%;
     gap: 8px;
     background: red;
+    /* background täcker inte allt i olika sidostorlekar */
 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 2fr 1fr 100px;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) 1fr;
+    grid-template-rows: 200px minmax(300px, 2fr) minmax(150px, 1fr) 100px;
     
     grid-template-areas: 
     "he he he"
@@ -24,13 +25,33 @@
     ;
 }
 
+#burger_of_the_day_img{
+    /* height:  minmax(100px, 1fr); */
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* width: minmax(100px 100%); */
+}
+
+#text_on_img{
+    position: absolute;
+    bottom: -75px;
+    font-size: 3rem;
+}
+
 #reklam1{
+    /* position: relative;
+    text-align: center; */
+    
     padding: 10px;
     background: greenyellow;
     grid-area: r1;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-image: url("logo_of_skvader.png"); */
+    /* background-color: #cccccc;    */
 }
 
 #reklam2{
@@ -136,6 +157,7 @@ a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
     font-weight:lighter;
+    
 }
 
 a:hover{
