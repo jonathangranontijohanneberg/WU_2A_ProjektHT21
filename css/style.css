@@ -36,8 +36,23 @@
 
 #text_on_img{
     position: absolute;
-    bottom: -75px;
-    font-size: 3rem;
+    /* bottom: -75px; */
+    /* font-size: minmax(1.75rem, 2rem); */
+    /* bottom: 10%; */
+    /* font-size: minmax(1.80rem, 2rem); */
+    /* object-fit: scale-down; */
+    /* font-size: min(1.8rem, 2rem); */
+    /* font-size: 10vh; */
+    font-size: clamp(2rem, 5vw, 3rem);
+
+    /* width: minmax(1.8rem, 9rem);
+    height: auto; */
+    /* height: 100%;
+    width: 100%; */
+    /* object-fit: fill; */
+    /* width: 1000px; */
+    /* height: auto; */
+
 }
 
 #reklam1{
