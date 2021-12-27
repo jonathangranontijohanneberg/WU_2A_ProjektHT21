@@ -25,6 +25,18 @@
     ;
 }
 
+#our_kitchen_img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#prizzly_hamburger_img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 #burger_of_the_day_img{
     /* height:  minmax(100px, 1fr); */
     /* position: absolute; */
@@ -54,6 +66,13 @@
     /* height: auto; */
 
 }
+
+/* #our_kitchen_test{
+    object-fit: contain;
+    height: 200px;
+    width: auto;
+
+} */
 
 #reklam1{
     /* position: relative;
