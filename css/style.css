@@ -295,8 +295,8 @@ a:hover{
     background: greenyellow;
     grid-area: d1;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
