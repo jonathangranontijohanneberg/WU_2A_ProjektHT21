@@ -306,8 +306,8 @@ a:hover{
     background: greenyellow;
     grid-area: d2;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
@@ -317,8 +317,8 @@ a:hover{
     background: greenyellow;
     grid-area: d3;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
