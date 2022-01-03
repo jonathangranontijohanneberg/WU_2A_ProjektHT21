@@ -227,8 +227,8 @@ a:hover{
     background: greenyellow;
     grid-area: m1;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
@@ -238,8 +238,8 @@ a:hover{
     background: greenyellow;
     grid-area: m2;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
@@ -249,8 +249,8 @@ a:hover{
     background: greenyellow;
     grid-area: m3;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
@@ -260,9 +260,17 @@ a:hover{
     background: greenyellow;
     grid-area: m4;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    
+
+}
+
+#price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: century;
 
 }
 
@@ -347,6 +355,9 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
     font-weight: lighter;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 h3 {
