@@ -15,7 +15,7 @@
     /* background täcker inte allt i olika sidostorlekar */
 
     grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) 1fr;
-    grid-template-rows: 200px minmax(300px, 2fr) minmax(150px, 1fr) 100px;
+    grid-template-rows: 200px minmax(300px, 2fr) minmax(150px, 1fr) minmax(100px, 6rem);;
     
     grid-template-areas: 
     "he he he"
@@ -147,6 +147,8 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     grid-area: fo;
+    /* height: 100px;
+    max-height: 250px; */
 }
 
 #nav_footer{
@@ -202,6 +204,12 @@ a:hover{
     color: turquoise;
 }
 
+#link_for_logo{
+    font-size: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
 #wrapper_meny{
     display: grid;
     height: 100%;
@@ -210,7 +218,7 @@ a:hover{
     background: forestgreen;
 
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 200px 1fr 1fr 1fr 1fr 100px;
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr minmax(100px, 6rem);
     
     grid-template-areas: 
     "he he he"
@@ -284,7 +292,7 @@ a:hover{
     background: gold;
 
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 200px 1fr 1fr 1fr 1fr 100px;
+    grid-template-rows: 200px 1fr 1fr 1fr 1fr minmax(100px, 6rem);
     
     grid-template-areas: 
     "he he he"
