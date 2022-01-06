@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     gap: 8px;
-    background: red;
+    background: rgb(226, 226, 226);
     /* background täcker inte allt i olika sidostorlekar */
 
     grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) 1fr;
@@ -89,7 +89,7 @@
     text-align: center; */
     
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: r1;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@
 
 #reklam2{
     padding: 10px;
-    background: yellowgreen;
+    background: rgb(59, 59, 59);
     grid-area: r2;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@
 
 #reklam3{
     padding: 10px;
-    background: hotpink;
+    background: rgb(59, 59, 59);
     grid-area: r3;
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@
 
 header {
     padding-top: 20px;
-    background: salmon;
+    background: rgb(27, 27, 27);
     /* height: 200px; */
     display: flex;
     justify-content: space-evenly;
@@ -130,14 +130,14 @@ header {
 #nav_header {
     width: 100%;
     margin-top:auto;
-    background: crimson;
+    background: rgb(59, 59, 59);
     justify-content: center;
     align-items: space-between;
     flex-direction: row;
 }
 
 #link_list{
-    background: chartreuse;
+    background: rgb(59, 59, 59);
     height: 40px;
     /* width: 100vw; */
     display: flex;
@@ -148,7 +148,7 @@ header {
 
 footer{
     display: flex;
-    background: darkblue;
+    background: rgb(27, 27, 27);
     /* height: 100px; */
     /* width: 100vw; */
     flex-direction: column;
@@ -209,7 +209,9 @@ a{
 a:hover{
     list-style: none;
     cursor: pointer;
-    color: turquoise;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px 0 rgb(226, 226, 226), 1px -1px 0 rgb(226, 226, 226), -1px 1px 0 rgb(226, 226, 226), 1px 1px 0 rgb(226, 226, 226),  -0px -1px 0 rgb(226, 226, 226), 1px -0px 0 rgb(226, 226, 226);
+
 }
 
 #link_for_logo{
@@ -223,7 +225,7 @@ a:hover{
     height: 100%;
     width: 100%;
     gap: 8px;
-    background: forestgreen;
+    background: rgb(226, 226, 226);
 
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 200px 1fr 1fr 1fr 1fr minmax(100px, 6rem);
@@ -241,7 +243,7 @@ a:hover{
 
 #menu_item1{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: m1;
     display: flex;
     align-items: center;
@@ -252,7 +254,7 @@ a:hover{
 
 #menu_item2{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: m2;
     display: flex;
     align-items: center;
@@ -263,7 +265,7 @@ a:hover{
 
 #menu_item3{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: m3;
     display: flex;
     align-items: center;
@@ -274,7 +276,7 @@ a:hover{
 
 #menu_item4{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: m4;
     display: flex;
     align-items: center;
@@ -297,7 +299,7 @@ a:hover{
     height: 100%;
     width: 100%;
     gap: 8px;
-    background: gold;
+    background: rgb(226, 226, 226);
     /* object-fit:unset; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -321,7 +323,7 @@ a:hover{
 
 #djur1{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: d1;
     display: flex;
     align-items: center;
@@ -336,7 +338,7 @@ a:hover{
 
 #djur2{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: d2;
     display: flex;
     align-items: center;
@@ -351,7 +353,7 @@ a:hover{
 
 #djur3{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: d3;
     display: flex;
     align-items: center;
@@ -366,7 +368,7 @@ a:hover{
 
 #djur4{
     padding: 10px;
-    background: greenyellow;
+    background: rgb(59, 59, 59);
     grid-area: d4;
     display: flex;
     /* align-items: center; */
@@ -402,6 +404,7 @@ h3 {
     font-family: century;
     font-size: 1.5rem;
     font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(59, 59, 59), 1px -1px 0 rgb(59, 59, 59), -1px 1px 0 rgb(59, 59, 59), 1px 1px 0 rgb(59, 59, 59); 
 }
 
 h2 {
