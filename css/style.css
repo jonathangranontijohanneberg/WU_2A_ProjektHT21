@@ -71,6 +71,14 @@
     object-fit: contain;
     margin-top: 10px;
     margin-bottom: 5px;
+
+    /* object-fit: contain; */
+
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center; */
+
     /* height: auto;
     width: 90%; */
 
@@ -290,8 +298,11 @@ a:hover{
     width: 100%;
     gap: 8px;
     background: gold;
+    /* object-fit:unset; */
+    /* justify-content: center; */
+    /* align-items: center; */
 
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr minmax(450px, 4fr) 1fr;
     grid-template-rows: 200px 1fr 1fr 1fr 1fr minmax(100px, 6rem);
     
     grid-template-areas: 
@@ -317,6 +328,10 @@ a:hover{
     justify-content: center;
     flex-direction: column;
 
+    /* width: minmax(200px, 400px);
+    height: auto; */
+    /* object-fit: contain; */
+
 }
 
 #djur2{
@@ -328,6 +343,10 @@ a:hover{
     justify-content: center;
     flex-direction: column;
 
+    /* object-fit: contain; */
+
+    /* width: minmax(200px, 400px);
+    height: auto; */
 }
 
 #djur3{
@@ -339,6 +358,10 @@ a:hover{
     justify-content: center;
     flex-direction: column;
 
+    /* object-fit: contain; */
+
+    /* width: minmax(200px, 400px);
+    height: auto; */
 }
 
 #djur4{
@@ -352,11 +375,14 @@ a:hover{
     align-items: center;
     justify-content: center;
 
+    /* object-fit: contain; */
+    /* width: minmax(200px, 400px);
+    height: auto; */
 }
 
 #logo_img {
     height: 100px;
-    width:auto;
+    width: auto;
 }
 
 p{
