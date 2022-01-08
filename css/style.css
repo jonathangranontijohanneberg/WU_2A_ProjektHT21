@@ -304,7 +304,7 @@ a:hover{
     /* justify-content: center; */
     /* align-items: center; */
 
-    grid-template-columns: 1fr minmax(450px, 4fr) 1fr;
+    grid-template-columns: 1fr minmax(400px, 4fr) 1fr;
     grid-template-rows: 200px 1fr 1fr 1fr 1fr minmax(100px, 6rem);
     
     grid-template-areas: 
